@@ -3,7 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="icon" href="./images/logo.svg" type="image/svg+xml" />
+    <title>Vyshyvanka</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
@@ -26,823 +27,663 @@
     />
   </head>
   <body>
-    <header class="header">
-      <div class="container container-head">
-        <nav class="nav">
-          <a class="logotype" href="./index.html"
-            >web<span class="logo-header">Studio</span>
-          </a>
+    <header class="header-page">
+      <div class="container header-container">
+        <div class="header-left-part">
+          <nav class="navigation">
+            <a class="logo" href="./index.html">
+              <img
+                src="./images/logo.svg"
+                alt="Logo icon"
+                width="44"
+                height="44"
+              />
+            </a>
 
-          <ul class="menu">
-            <li>
-              <a class="link-main-page header-list" href="./index.html"
-                >Studio</a
-              >
-            </li>
-            <li><a class="header-list" href="">Portfolio</a></li>
-            <li><a class="header-list" href="">Contacts</a></li>
-          </ul>
-        </nav>
-        <address class="address-list">
-          <ul class="list-contacts">
-            <li>
-              <a class="address-item" href="mailto:info@devstudio.com">
-                info@devstudio.com</a
-              >
-            </li>
-            <li>
-              <a class="address-item" href="tel:+110001111111"
-                >+11 (000) 111-11-11</a
-              >
-            </li>
-          </ul>
-        </address>
-        <!--Mobile-menu-->
-        <button class="mobile-menu-burger" type="button">
-          <svg
-            class="mobile-menu-burger-icon"
-            aria-label="mobile-menu-open"
-            width="24"
-            height="24"
-            stroke="#2F2F37"
-          >
-            <use href="./images/icons.svg#icon-burger"></use>
-          </svg>
-        </button>
-
-        <div class="mobile-menu">
-          <div class="mobile-menu-wrapper">
-            <button class="mobile-menu-close" type="button">
-              <svg
-                class="mobile-menu-close-icon"
-                aria-label="mobile-menu-close"
-                width="8"
-                height="8"
-              >
-                <use href="./images/icons.svg#icon-close"></use>
-              </svg>
-            </button>
-
-            <ul class="mobile-menu-list">
-              <li class="list">
-                <a class="mobile-menu-nav cover" href="./index.html">Studio</a>
+            <ul class="navigation-menu">
+              <li class="navigation-item">
+                <a class="navigation-link" href="#about-us">Про нас</a>
               </li>
-              <li class="list">
-                <a class="mobile-menu-nav" href="">Portfolio</a>
+              <li class="navigation-item">
+                <a class="navigation-link" href="#our-collection"
+                  >Наша колекція</a
+                >
               </li>
-              <li class="list">
-                <a class="mobile-menu-nav" href="">Contacts</a>
+              <li class="navigation-item">
+                <a class="navigation-link" href="#customer-order"
+                  >Замовлення клієнта</a
+                >
+              </li>
+              <li class="navigation-item">
+                <a class="navigation-link" href="#testimonials">Відгуки</a>
               </li>
             </ul>
-
-            <address class="mobile-menu-contacts">
-              <ul class="mobile-menu-contacts-list">
-                <li class="mobile-menu-contacts-item">
-                  <a class="mobile-menu-contacts-tel" href="tel:+110001111111"
-                    >+11 (000) 111-11-11</a
-                  >
-                </li>
-                <li class="mobile-menu-contacts-item">
-                  <a
-                    class="mobile-menu-contacts-mail"
-                    href="mailto:info@devstudio.com"
-                    >info@devstudio.com</a
-                  >
-                </li>
-              </ul>
-            </address>
-            <ul class="mobile-menu-social-icons">
-              <li class="icons-mobil-menu">
-                <a class="link-social" href="">
-                  <svg class="icon-our-team" width="24" height="24">
-                    <use href="./images/icons.svg#icon-instagram"></use>
-                  </svg>
-                </a>
-              </li>
-              <li class="icons-mobil-menu">
-                <a class="link-social" href="">
-                  <svg class="icon-our-team" width="24" height="24">
-                    <use href="./images/icons.svg#icon-twitter"></use>
-                  </svg>
-                </a>
-              </li>
-              <li class="icons-mobil-menu">
-                <a class="link-social" href="">
-                  <svg class="icon-our-team" width="24" height="24">
-                    <use href="./images/icons.svg#icon-facebook"></use>
-                  </svg>
-                </a>
-              </li>
-              <li class="icons-mobil-menu">
-                <a class="link-social" href="">
-                  <svg class="icon-our-team" width="24" height="24">
-                    <use href="./images/icons.svg#icon-linkedin"></use>
-                  </svg>
-                </a>
-              </li>
-            </ul>
-          </div>
+          </nav>
         </div>
-        <!--end-mobile-menu-->
+
+        <div class="header-right-part">
+          <address class="address-info">
+            <a class="contact-information" href="tel:+380684439425"
+              >+380 (68) 443-94-26</a
+            >
+          </address>
+
+          <ul class="social-link-list">
+            <li class="social-list-item">
+              <a
+                class="header-link"
+                href="https://www.facebook.com/groups/156924101176669/"
+                target="_blank"
+              >
+                <svg class="header-icons" width="28" height="28">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-list-item">
+              <a
+                class="header-link"
+                href="https://www.instagram.com/motyv_vyshyvanka?igsh=MWV5MzR6OW05dms1eA==/"
+                target="_blank"
+              >
+                <svg class="header-icons" width="28" height="28">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+
+          <button class="mobile-open-btn" type="button">
+            <svg class="mobile-open-btn-icon" width="44" height="30">
+              <use href="./images/icons.svg#icon-burger"></use>
+            </svg>
+          </button>
+        </div>
       </div>
     </header>
     <main>
-      <!-- section1-->
+      <section class="hero-section">
+        <div class="container hero-container">
+          <div class="hero-main">
+            <div class="hero-photo">
+              <img
+                class="hero-img"
+                src="./images/desktop-1280/desktop-hero-girl.jpg"
+                alt="Фото дівчини"
+              />
+            </div>
+            <div class="hero-goal">
+              <h1 class="hero-title">
+                Відродження традиційного
+                <span class="accent-color">українського</span> мистецтва.
+              </h1>
+              <a class="hero-btn" href="#customer-order"> Замовити </a>
+            </div>
+          </div>
+          <div class="hero-handmade">
+            <div class="hero-hand-cont">
+              <img
+                class="hero-sun"
+                src="./images/hero/hero-sun.png"
+                alt="Сонце"
+              />
+              <p class="hero-text">турбота в кожному стібку</p>
+            </div>
+            <div class="hero-elipse">
+              <img src="./images/hero/hero-elips.png" alt="Еліпс" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="about-us" class="about-us-bg-image">
+        <div class="container about-us">
+          <div class="wrapper-text">
+            <h2 class="title-about-us">Про нас</h2>
+            <p class="text-about-us">
+              Це місце, де традиційна українська вишиванка оживає з новою
+              родзинкою та стилем. У нас представлений широкий вибір якісної та
+              автентичної вишивки, яка поєднує в собі витонченість традиційного
+              рукоділля та сучасний дизайн!
+            </p>
+            <p class="text-about-us text-about-us-two">
+              У нас ви знайдете різноманітні моделі вишивок, від класичних до
+              сучасних, що відповідають останнім тенденціям моди. Наша вишиванка
+              виконана з натуральних тканин і вишита висококваліфікованими
+              майстрами, які в кожній деталі передають красу української
+              культури. Ми віримо, що вишиванка – це не просто одяг, а символ
+              національної гордості, надбання наших предків і спосіб вираження
+              власної індивідуальності. Кожна наша вишиванка має свою неповторну
+              історію та символіку, що надає їй особливого значення.
+            </p>
+          </div>
+          <picture>
+            <source
+              media="(min-width:1440px)"
+              srcset="
+                ./images/desktop-1440/desktop1440-aboutus.jpg    1x,
+                ./images/desktop-1440/desktop1440-aboutus@2x.jpg 2x
+              "
+              type="image/jpg"
+            />
+            <source
+              media="(min-width:1280px)"
+              srcset="
+                ./images/desktop-1280/desktop-aboutus.jpg    1x,
+                ./images/desktop-1280/desktop-aboutus@2x.jpg 2x
+              "
+              type="image/jpg"
+            />
+            <source
+              media="(min-width:768px)"
+              srcset="
+                ./images/tablet/tablet-aboutus.jpg    1x,
+                ./images/tablet/tablet-aboutus@2x.jpg 2x
+              "
+              type="image/jpg"
+            />
+            <source
+              media="(max-width:767px)"
+              srcset="
+                ./images/mobile/mobile-aboutus.jpg    1x,
+                ./images/mobile/mobile-aboutus@2x.jpg 2x
+              "
+              type="image/jpg"
+            />
 
-      <section class="section-title hero-bg-image">
-        <div class="container section-one">
-          <h1 class="title">Effective Solutions for Your Business</h1>
-          <button class="section-button" type="button">Order Service</button>
+            <img
+              class="img"
+              src="./images/mobile/mobile-aboutus.jpg "
+              alt="About Us"
+              loading="lazy"
+            />
+          </picture>
         </div>
       </section>
 
-      <!-- section2-->
-      <section class="section-tw">
-        <div class="container">
-          <h2 class="visually-hidden">111</h2>
+      <section id="our-collection" class="our-collection">
+        <div class="our-collection-box container">
+          <h2 class="section-title">Наша колекція</h2>
+          <ul class="our-collection-list">
+            <li class="our-collection-card-item">
+              <div class="our-collection-card">
+                <picture>
+                  <source
+                    media="(min-width:1440px)"
+                    srcset="
+                      ./images/desktop-1440/desktop1440-ourcollection1.jpg    1x,
+                      ./images/desktop-1440/desktop1440-ourcollection1@2x.jpg 2x
+                    "
+                    type="image/jpg"
+                  />
+                  <source
+                    media="(min-width:1280px)"
+                    srcset="
+                      ./images/desktop-1280/desktop-ourcollection1.jpg    1x,
+                      ./images/desktop-1280/desktop-ourcollection1@2x.jpg 2x
+                    "
+                    type="image/jpg"
+                  />
+                  <source
+                    media="(min-width:768px)"
+                    srcset="
+                      ./images/tablet/tablet-ourcollection1.jpg    1x,
+                      ./images/tablet/tablet-ourcollection1@2x.jpg 2x
+                    "
+                    type="image/jpg"
+                  />
+                  <source
+                    media="(max-width:767px)"
+                    srcset="
+                      ./images/mobile/mobile-ourcollection1.jpg    1x,
+                      ./images/mobile/mobile-ourcollection1@2x.jpg 2x
+                    "
+                    type="image/jpg"
+                  />
 
-          <ul class="company-list">
-            <li class="company-item">
-              <div class="company-wrapper">
-                <svg width="64" height="64">
-                  <use href="./images/icons.svg#icon-antenna"></use>
-                </svg>
+                  <img
+                    class="our-collection-card-img"
+                    src="./images/mobile/mobile-ourcollection1.jpg"
+                    alt="Poltava women's blouse"
+                    loading="lazy"
+                  />
+                </picture>
               </div>
-              <h3 class="company-title">Strategy</h3>
-              <p class="company-text">
-                Our goal is to identify the business problem to walk away with
-                the perfect and creative solution.
-              </p>
+              <div class="our-collection-information">
+                <h3 class="our-collection-clothes-name">
+                  Жіноча вишиванка Полтава
+                </h3>
+                <p class="our-collection-price">3300 грн.</p>
+              </div>
             </li>
-            <li class="company-item">
-              <div class="company-wrapper">
-                <svg width="64" height="64">
-                  <use href="./images/icons.svg#icon-clock"></use>
-                </svg>
+            <li class="our-collection-card-item">
+              <div>
+                <picture>
+                  <source
+                    media="(min-width:1440px)"
+                    srcset="
+                      ./images/desktop-1440/desktop1440-ourcollection2.jpg    1x,
+                      ./images/desktop-1440/desktop1440-ourcollection2@2x.jpg 2x
+                    "
+                    type="image/jpg"
+                  />
+                  <source
+                    media="(min-width:1280px)"
+                    srcset="
+                      ./images/desktop-1280/desktop-ourcollection2.jpg    1x,
+                      ./images/desktop-1280/desktop-ourcollection2@2x.jpg 2x
+                    "
+                    type="image/jpg"
+                  />
+                  <source
+                    media="(min-width:768px)"
+                    srcset="
+                      ./images/tablet/tablet-ourcollection2.jpg    1x,
+                      ./images/tablet/tablet-ourcollection2@2x.jpg 2x
+                    "
+                    type="image/jpg"
+                  />
+                  <source
+                    media="(max-width:767px)"
+                    srcset="
+                      ./images/mobile/mobile-ourcollection2.jpg    1x,
+                      ./images/mobile/mobile-ourcollection2@2x.jpg 2x
+                    "
+                    type="image/jpg"
+                  />
+                  <img
+                    class="our-collection-card-img"
+                    src="./images/mobile/mobile-ourcollection2.jpg"
+                    alt="Women's blouse Gorgany"
+                    loading="lazy"
+                  />
+                </picture>
               </div>
-              <h3 class="company-title">Punctuality</h3>
-              <p class="company-text">
-                Bring the key message to the brand's audience for the best price
-                within the shortest possible time.
-              </p>
+              <div class="our-collection-information">
+                <h3 class="our-collection-clothes-name">
+                  Жіноча вишиванка Горгани
+                </h3>
+                <p class="our-collection-price">3350 грн.</p>
+              </div>
             </li>
-            <li class="company-item">
-              <div class="company-wrapper">
-                <svg width="64" height="64">
-                  <use href="./images/icons.svg#icon-diagram"></use>
-                </svg>
+            <li class="our-collection-card-item">
+              <div>
+                <picture>
+                  <source
+                    media="(min-width:1440px)"
+                    srcset="
+                      ./images/desktop-1440/desktop1440-ourcollection3.jpg    1x,
+                      ./images/desktop-1440/desktop1440-ourcollection3@2x.jpg 2x
+                    "
+                    type="image/jpg"
+                  />
+                  <source
+                    media="(min-width:1280px)"
+                    srcset="
+                      ./images/desktop-1280/desktop-ourcollection3.jpg    1x,
+                      ./images/desktop-1280/desktop-ourcollection3@2x.jpg 2x
+                    "
+                    type="image/jpg"
+                  />
+                  <source
+                    media="(min-width:768px)"
+                    srcset="
+                      ./images/tablet/tablet-ourcollection3.jpg    1x,
+                      ./images/tablet/tablet-ourcollection3@2x.jpg 2x
+                    "
+                    type="image/jpg"
+                  />
+                  <source
+                    media="(max-width:767px)"
+                    srcset="
+                      ./images/mobile/mobile-ourcollection3.jpg    1x,
+                      ./images/mobile/mobile-ourcollection3@2x.jpg 2x
+                    "
+                    type="image/jpg"
+                  />
+                  <img
+                    class="our-collection-card-img"
+                    src="./images/mobile/mobile-ourcollection3.jpg"
+                    alt="Women's blouse Crimea"
+                    loading="lazy"
+                  />
+                </picture>
               </div>
-              <h3 class="company-title">Diligence</h3>
-              <p class="company-text">
-                Research and confirm brands that present the strongest digital
-                growth opportunities and minimize risk.
-              </p>
+              <div class="our-collection-information">
+                <h3 class="our-collection-clothes-name">Жіноча блузка Крим</h3>
+                <p class="our-collection-price">4000 грн.</p>
+              </div>
             </li>
-            <li class="company-item">
-              <div class="company-wrapper">
-                <svg width="64" height="64">
-                  <use href="./images/icons.svg#icon-astronaut"></use>
-                </svg>
+            <li class="our-collection-card-item">
+              <div>
+                <picture>
+                  <source
+                    media="(min-width:1440px)"
+                    srcset="
+                      ./images/desktop-1440/desktop1440-ourcollection4.jpg    1x,
+                      ./images/desktop-1440/desktop1440-ourcollection4@2x.jpg 2x
+                    "
+                    type="image/jpg"
+                  />
+                  <source
+                    media="(min-width:1280px)"
+                    srcset="
+                      ./images/desktop-1280/desktop-ourcollection4.jpg    1x,
+                      ./images/desktop-1280/desktop-ourcollection4@2x.jpg 2x
+                    "
+                    type="image/jpg"
+                  />
+                  <source
+                    media="(min-width:768px)"
+                    srcset="
+                      ./images/tablet/tablet-ourcollection4.jpg    1x,
+                      ./images/tablet/tablet-ourcollection4@2x.jpg 2x
+                    "
+                    type="image/jpg"
+                  />
+                  <source
+                    media="(max-width:767px)"
+                    srcset="
+                      ./images/mobile/mobile-ourcollection4.jpg    1x,
+                      ./images/mobile/mobile-ourcollection4@2x.jpg 2x
+                    "
+                    type="image/jpg"
+                  />
+
+                  <img
+                    class="our-collection-card-img"
+                    src="./images/mobile/mobile-ourcollection4.jpg"
+                    alt="Men's shirt Verkhovina"
+                    loading="lazy"
+                  />
+                </picture>
               </div>
-              <h3 class="company-title">Technologies</h3>
-              <p class="company-text">
-                Design practice focused on digital experiences. We bring forth a
-                deep passion for problem-solving.
-              </p>
+              <div class="our-collection-information">
+                <h3 class="our-collection-clothes-name">
+                  Чоловіча сорочка Верховина
+                </h3>
+                <p class="our-collection-price">3100 грн.</p>
+              </div>
+            </li>
+            <li class="our-collection-card-item">
+              <div>
+                <picture>
+                  <source
+                    media="(min-width:1440px)"
+                    srcset="
+                      ./images/desktop-1440/desktop1440-ourcollection5.jpg    1x,
+                      ./images/desktop-1440/desktop1440-ourcollection5@2x.jpg 2x
+                    "
+                    type="image/jpg"
+                  />
+                  <source
+                    media="(min-width:1280px)"
+                    srcset="
+                      ./images/desktop-1280/desktop-ourcollection5.jpg    1x,
+                      ./images/desktop-1280/desktop-ourcollection5@2x.jpg 2x
+                    "
+                    type="image/jpg"
+                  />
+                  <source
+                    media="(min-width:768px)"
+                    srcset="
+                      ./images/tablet/tablet-ourcollection5.jpg    1x,
+                      ./images/tablet/tablet-ourcollection5@2x.jpg 2x
+                    "
+                    type="image/jpg"
+                  />
+                  <source
+                    media="(max-width:767px)"
+                    srcset="
+                      ./images/mobile/mobile-ourcollection5.jpg    1x,
+                      ./images/mobile/mobile-ourcollection5@2x.jpg 2x
+                    "
+                    type="image/jpg"
+                  />
+                  <img
+                    class="our-collection-card-img"
+                    src="./images/mobile/mobile-ourcollection5.jpg"
+                    alt="Mountain men's shirt"
+                    loading="lazy"
+                  />
+                </picture>
+              </div>
+              <div class="our-collection-information">
+                <h3 class="our-collection-clothes-name">
+                  Гірська чоловіча сорочка
+                </h3>
+                <p class="our-collection-price">3300 Грн</p>
+              </div>
+            </li>
+            <li class="our-collection-card-item">
+              <div>
+                <picture>
+                  <source
+                    media="(min-width:1440px)"
+                    srcset="
+                      ./images/desktop-1440/desktop1440-ourcollection6.jpg    1x,
+                      ./images/desktop-1440/desktop1440-ourcollection6@2x.jpg 2x
+                    "
+                    type="image/jpg"
+                  />
+                  <source
+                    media="(min-width:1280px)"
+                    srcset="
+                      ./images/desktop-1280/desktop-ourcollection6.jpg    1x,
+                      ./images/desktop-1280/desktop-ourcollection6@2x.jpg 2x
+                    "
+                    type="image/jpg"
+                  />
+                  <source
+                    media="(min-width:768px)"
+                    srcset="
+                      ./images/tablet/tablet-ourcollection6.jpg    1x,
+                      ./images/tablet/tablet-ourcollection6@2x.jpg 2x
+                    "
+                    type="image/jpg"
+                  />
+                  <source
+                    media="(max-width:767px)"
+                    srcset="
+                      ./images/mobile/mobile-ourcollection6.jpg    1x,
+                      ./images/mobile/mobile-ourcollection6@2x.jpg 2x
+                    "
+                    type="image/jpg"
+                  />
+
+                  <img
+                    class="our-collection-card-img"
+                    src="./images/mobile/mobile-ourcollection6.jpg"
+                    alt="Men's shirt Yasen"
+                    loading="lazy"
+                  />
+                </picture>
+              </div>
+              <div class="our-collection-information">
+                <h3 class="our-collection-clothes-name">
+                  Чоловіча сорочка Ясень
+                </h3>
+                <p class="our-collection-price">1700 Грн.</p>
+              </div>
             </li>
           </ul>
         </div>
       </section>
 
-      <!-- section3-->
-      <section class="section-three">
-        <div class="container">
-          <h2 class="title-two">Our Team</h2>
-          <ul class="list-section-three">
-            <li class="item-section-three">
-              <img
-                class="img"
-                srcset="./images/team/img1_mark-2x.jpg 2x"
-                src="./images/team/img1_mark-1x.jpg"
-                alt="Mark Guerrero"
-                width="264"
-              />
-              <div class="worker">
-                <h3 class="title-three title-name">Mark Guerrero</h3>
-                <p class="paragraph paragraph-name">Product Designer</p>
-                <ul class="social-icons">
-                  <li class="icons-section-our-team">
-                    <a class="link-social" href="">
-                      <svg class="icon-our-team" width="16" height="16">
-                        <use href="./images/icons.svg#icon-instagram"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="icons-section-our-team">
-                    <a class="link-social" href="">
-                      <svg class="icon-our-team" width="16" height="16">
-                        <use href="./images/icons.svg#icon-twitter"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="icons-section-our-team">
-                    <a class="link-social" href="">
-                      <svg class="icon-our-team" width="16" height="16">
-                        <use href="./images/icons.svg#icon-facebook"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="icons-section-our-team">
-                    <a class="link-social" href="">
-                      <svg class="icon-our-team" width="16" height="16">
-                        <use href="./images/icons.svg#icon-linkedin"></use>
-                      </svg>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </li>
-            <li class="item-section-three">
-              <img
-                class="img"
-                srcset="./images/team/img2_tom-2x.jpg 2x"
-                src="./images/team/img2_tom-1x.jpg"
-                alt="Tom Ford"
-                width="264"
-              />
-              <div class="worker">
-                <h3 class="title-three title-name">Tom Ford</h3>
+      <section class="order-section section-background">
+        <div class="order-background-girl padding-background-girl"></div>
+        <div class="order-section-wrapper container">
+          <div class="order-form-box">
+            <h2 class="order-title" id="customer-order">
+              <span class="accent-color">Ваше замовлення</span> - наш пріоритет:
+              Індивідуальний підхід і якість обслуговування
+            </h2>
+            <form class="order-form">
+              <label class="order-form-field-label" for="user-name">
+                <input
+                  class="order-form-field"
+                  type="text"
+                  name="user-name"
+                  id="user-name"
+                  required
+                  placeholder="Введіть своє повне ім'я"
+                  pattern="[a-zA-Zа-яА-ЯіЇіІєЄйЙґҐ']+"
+                />
+              </label>
 
-                <p class="paragraph paragraph-name">Frontend Developer</p>
-                <ul class="social-icons">
-                  <li class="icons-section-our-team">
-                    <a class="link-social" href="">
-                      <svg class="icon-our-team" width="16" height="16">
-                        <use href="./images/icons.svg#icon-instagram"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="icons-section-our-team">
-                    <a class="link-social" href="">
-                      <svg class="icon-our-team" width="16" height="16">
-                        <use href="./images/icons.svg#icon-twitter"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="icons-section-our-team">
-                    <a class="link-social" href="">
-                      <svg class="icon-our-team" width="16" height="16">
-                        <use href="./images/icons.svg#icon-facebook"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="icons-section-our-team">
-                    <a class="link-social" href="">
-                      <svg class="icon-our-team" width="16" height="16">
-                        <use href="./images/icons.svg#icon-linkedin"></use>
-                      </svg>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </li>
+              <label class="order-form-field-label" for="user-email">
+                <input
+                  class="order-form-field"
+                  type="email"
+                  name="user-email"
+                  id="user-email"
+                  placeholder="Введіть адресу вашої електронної скриньки"
+                  required
+                />
+              </label>
 
-            <li class="item-section-three">
-              <img
-                class="img"
-                srcset="./images/team/img3_camila-2x.jpg 2x"
-                src="./images/team/img3_camila-1x.jpg"
-                alt="Camila Garcia"
-                width="264"
-              />
-              <div class="worker">
-                <h3 class="title-three title-name">Camila Garcia</h3>
-                <p class="paragraph paragraph-name">Marketing</p>
-                <ul class="social-icons">
-                  <li class="icons-section-our-team">
-                    <a class="link-social" href="">
-                      <svg class="icon-our-team" width="16" height="16">
-                        <use href="./images/icons.svg#icon-instagram"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="icons-section-our-team">
-                    <a class="link-social" href="">
-                      <svg class="icon-our-team" width="16" height="16">
-                        <use href="./images/icons.svg#icon-twitter"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="icons-section-our-team">
-                    <a class="link-social" href="">
-                      <svg class="icon-our-team" width="16" height="16">
-                        <use href="./images/icons.svg#icon-facebook"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="icons-section-our-team">
-                    <a class="link-social" href="">
-                      <svg class="icon-our-team" width="16" height="16">
-                        <use href="./images/icons.svg#icon-linkedin"></use>
-                      </svg>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </li>
-            <li class="item-section-three">
-              <img
-                class="img"
-                srcset="./images/team/img4_daniel-2x.jpg 2x"
-                src="./images/team/img4_daniel-1x.jpg"
-                alt="Daniel Wilson"
-                width="264"
-              />
-              <div class="worker">
-                <h3 class="title-three title-name">Daniel Wilson</h3>
-
-                <p class="paragraph paragraph-name">UI Designer</p>
-                <ul class="social-icons">
-                  <li class="icons-section-our-team">
-                    <a class="link-social" href="">
-                      <svg class="icon-our-team" width="16" height="16">
-                        <use href="./images/icons.svg#icon-instagram"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="icons-section-our-team">
-                    <a class="link-social" href="">
-                      <svg class="icon-our-team" width="16" height="16">
-                        <use href="./images/icons.svg#icon-twitter"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="icons-section-our-team">
-                    <a class="link-social" href="">
-                      <svg class="icon-our-team" width="16" height="16">
-                        <use href="./images/icons.svg#icon-facebook"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="icons-section-our-team">
-                    <a class="link-social" href="">
-                      <svg class="icon-our-team" width="16" height="16">
-                        <use href="./images/icons.svg#icon-linkedin"></use>
-                      </svg>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </li>
-          </ul>
+              <label class="order-form-field-label" for="user-comments">
+                <textarea
+                  class="order-form-comments"
+                  name="user-comments"
+                  id="user-comments"
+                  placeholder="Уточнення до замовлення"
+                ></textarea>
+              </label>
+              <button class="order-form-btn" type="submit">Надіслати</button>
+            </form>
+          </div>
+          <div class="order-form-image-wrapper">
+            <img
+              class="order-form-image"
+              srcset="
+                ./images/desktop-1440/desktop1440-yourorder@2x.jpg 1048w,
+                ./images/tablet/tablet-yourorder@2x.jpg            1276w,
+                ./images/desktop-1440/desktop1440-yourorder.jpg     524w,
+                ./images/tablet/tablet-yourorder.jpg                638w
+              "
+              sizes="(min-width:1280px) 524px,        
+              (max-width:1279px) 638px"
+              src="./images/desktop-1440/desktop-yourorder.jpg"
+              alt="order image"
+            />
+          </div>
         </div>
       </section>
 
-      <!-- section4-->
-      <section class="section-four">
+      <!-- section testimonials-->
+      <section class="testimonials" id="testimonials">
         <div class="container">
-          <h2 class="title-two">Our Portfolio</h2>
-          <ul class="list-section-four">
-            <li class="item-sec-four">
-              <div class="img-section-f">
-                <picture>
-                  <source
-                    media="(min-width:1158px)"
-                    srcset="
-                      ./images/gallery/BankingApp_lg.jpg    1x,
-                      ./images/gallery/BankingApp_lg@2x.jpg 2x
-                    "
-                    type="image/jpg"
-                  />
-                  <source
-                    media="(min-width:768px)"
-                    srcset="
-                      ./images/gallery/BankingApp_md.jpg    1x,
-                      ./images/gallery/BankingApp_md@2x.jpg 2x
-                    "
-                    type="image/jpg"
-                  />
-                  <source
-                    media="(max-width:767px)"
-                    srcset="
-                      ./images/gallery/BankingApp_sm.jpg    1x,
-                      ./images/gallery/BankingApp_sm@2x.jpg 2x
-                    "
-                    type="image/jpg"
-                  />
-
-                  <img
-                    class="img"
-                    src="./images/gallery/BankingApp_sm.jpg"
-                    alt="Banking App"
-                    loading="lazy"
-                  />
-                </picture>
-
-                <p class="text-img">
-                  14 Stylish and User-Friendly App Design Concepts · Task
-                  Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
-                  · Cloud Storage App
+          <h2 class="testimonials-title">Відгуки</h2>
+          <ul class="testimonials-list">
+            <li class="testimonials-item">
+              <img
+                class="testimonials-img"
+                srcset="./images/testimonials/testimonials-foto1@2x.png 2x"
+                src="./images/testimonials/testimonials-foto1.png"
+                alt="Maria Tkachuk"
+                width="64"
+                height="64"
+              />
+              <div class="testimonials-box">
+                <h3 class="testimonials-name">Марія Ткачук</h3>
+                <p class="testimonials-text">
+                  Мене приємно вразила різноманітність вишивки, яку пропонують
+                  майстрині. У них представлені моделі на будь-який смак - від
+                  класичних до сучасних. Купила вишиванку для святкування
+                  урочистої події та отримала бездоганний сервіс та вишуканість
+                  у кожній деталі.
                 </p>
-              </div>
-              <div class="addition">
-                <h3 class="title-three-section-four">Banking App</h3>
-                <p class="paragraph-section-four">App</p>
               </div>
             </li>
-            <li class="item-sec-four">
-              <div class="img-section-f">
-                <picture>
-                  <source
-                    media="(min-width:1158px)"
-                    srcset="
-                      ./images/gallery/CashlessPayment_lg.jpg    1x,
-                      ./images/gallery/CashlessPayment_lg@2x.jpg 2x
-                    "
-                    type="image/jpg"
-                  />
-                  <source
-                    media="(min-width:768px)"
-                    srcset="
-                      ./images/gallery/CashlessPayment_md.jpg    1x,
-                      ./images/gallery/CashlessPayment_md@2x.jpg 2x
-                    "
-                    type="image/jpg"
-                  />
-                  <source
-                    media="(max-width:767px)"
-                    srcset="
-                      ./images/gallery/CashlessPayment_sm.jpg    1x,
-                      ./images/gallery/CashlessPayment_sm@2x.jpg 2x
-                    "
-                    type="image/jpg"
-                  />
-
-                  <img
-                    class="img"
-                    src="./images/gallery/CashlessPayment_sm.jpg"
-                    alt="Cashless Payment"
-                    loading="lazy"
-                  />
-                </picture>
-                <p class="text-img">
-                  14 Stylish and User-Friendly App Design Concepts · Task
-                  Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
-                  · Cloud Storage App
+            <li class="testimonials-item">
+              <img
+                class="testimonials-img"
+                srcset="./images/testimonials/testimonials-foto2@2x.png 2x"
+                src="./images/testimonials/testimonials-foto2.png"
+                alt="Sergey Rybachok"
+                width="64"
+                height="64"
+              />
+              <div class="testimonials-box">
+                <h3 class="testimonials-name">Сергій Рибачок</h3>
+                <p class="testimonials-text">
+                  Їхні вишиванки просто шедеври! Я закохався в якість матеріалів
+                  і майстерність майстрів, які створюють кожну вишиванку. Це моя
+                  улюблена сорочка, де я завжди знаходжу щось особливе та
+                  унікальне.
                 </p>
-              </div>
-              <div class="addition">
-                <h3 class="title-three-section-four">Cashless Payment</h3>
-                <p class="paragraph-section-four">Marketing</p>
               </div>
             </li>
-
-            <li class="item-sec-four">
-              <div class="img-section-f">
-                <picture>
-                  <source
-                    media="(min-width:1158px)"
-                    srcset="
-                      ./images/gallery/MeditationApp_lg.jpg    1x,
-                      ./images/gallery/MeditationApp_lg@2x.jpg 2x
-                    "
-                    type="image/jpg"
-                  />
-                  <source
-                    media="(min-width:768px)"
-                    srcset="
-                      ./images/gallery/MeditationApp_md.jpg    1x,
-                      ./images/gallery/MeditationApp_md@2x.jpg 2x
-                    "
-                    type="image/jpg"
-                  />
-                  <source
-                    media="(max-width:767px)"
-                    srcset="
-                      ./images/gallery/MeditationApp_sm.jpg    1x,
-                      ./images/gallery/MeditationApp_sm@2x.jpg 2x
-                    "
-                    type="image/jpg"
-                  />
-
-                  <img
-                    class="img"
-                    src="./images/gallery/MeditationApp_sm.jpg"
-                    alt="Meditation App"
-                    loading="lazy"
-                  />
-                </picture>
-                <p class="text-img">
-                  14 Stylish and User-Friendly App Design Concepts · Task
-                  Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
-                  · Cloud Storage App
+            <li class="testimonials-item">
+              <img
+                class="testimonials-img"
+                srcset="./images/testimonials/testimonials-foto3@2x.png 2x"
+                src="./images/testimonials/testimonials-foto3.png"
+                alt="Natalia Chatuk"
+                width="64"
+                height="64"
+              />
+              <div class="testimonials-box">
+                <h3 class="testimonials-name">Наталія Чатук</h3>
+                <p class="testimonials-text">
+                  Вишивка відображає дух і традиції нашого народу. Я купую
+                  вишиванки не лише собі, а й дарую друзям за кордоном як символ
+                  нашої краси та національної гордості.
                 </p>
-              </div>
-              <div class="addition">
-                <h3 class="title-three-section-four">Meditation App</h3>
-                <p class="paragraph-section-four">App</p>
-              </div>
-            </li>
-            <li class="item-sec-four">
-              <div class="img-section-f">
-                <picture>
-                  <source
-                    media="(min-width:1158px)"
-                    srcset="
-                      ./images/gallery/TaxiService_lg.jpg    1x,
-                      ./images/gallery/TaxiService_lg@2x.jpg 2x
-                    "
-                    type="image/jpg"
-                  />
-                  <source
-                    media="(min-width:768px)"
-                    srcset="
-                      ./images/gallery/TaxiService_md.jpg    1x,
-                      ./images/gallery/TaxiService_md@2x.jpg 2x
-                    "
-                    type="image/jpg"
-                  />
-                  <source
-                    media="(max-width:767px)"
-                    srcset="
-                      ./images/gallery/TaxiService_sm.jpg    1x,
-                      ./images/gallery/TaxiService_sm@2x.jpg 2x
-                    "
-                    type="image/jpg"
-                  />
-
-                  <img
-                    class="img"
-                    src="./images/gallery/TaxiService_sm.jpg"
-                    alt="Taxi Service"
-                    loading="lazy"
-                  />
-                </picture>
-                <p class="text-img">
-                  14 Stylish and User-Friendly App Design Concepts · Task
-                  Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
-                  · Cloud Storage App
-                </p>
-              </div>
-              <div class="addition">
-                <h3 class="title-three-section-four">Taxi Service</h3>
-                <p class="paragraph-section-four">Marketing</p>
-              </div>
-            </li>
-            <li class="item-sec-four">
-              <div class="img-section-f">
-                <picture>
-                  <source
-                    media="(min-width:1158px)"
-                    srcset="
-                      ./images/gallery/ScreenIllustrations_lg.jpg    1x,
-                      ./images/gallery/ScreenIllustrations_lg@2x.jpg 2x
-                    "
-                    type="image/jpg"
-                  />
-                  <source
-                    media="(min-width:768px)"
-                    srcset="
-                      ./images/gallery/ScreenIllustrations_md.jpg    1x,
-                      ./images/gallery/ScreenIllustrations_md@2x.jpg 2x
-                    "
-                    type="image/jpg"
-                  />
-                  <source
-                    media="(max-width:767px)"
-                    srcset="
-                      ./images/gallery/ScreenIllustrations_sm.jpg    1x,
-                      ./images/gallery/ScreenIllustrations_sm@2x.jpg 2x
-                    "
-                    type="image/jpg"
-                  />
-
-                  <img
-                    class="img img-portfoiio"
-                    src="./images/gallery/ScreenIllustrations_sm.jpg"
-                    alt="Screen Illustrations"
-                    loading="lazy"
-                  />
-                </picture>
-                <p class="text-img">
-                  14 Stylish and User-Friendly App Design Concepts · Task
-                  Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
-                  · Cloud Storage App
-                </p>
-              </div>
-              <div class="addition">
-                <h3 class="title-three-section-four">Screen Illustrations</h3>
-                <p class="paragraph-section-four">Design</p>
-              </div>
-            </li>
-            <li class="item-sec-four">
-              <div class="img-section-f">
-                <picture>
-                  <source
-                    media="(min-width:1158px)"
-                    srcset="
-                      ./images/gallery/OnlineCourses_lg.jpg    1x,
-                      ./images/gallery/OnlineCourses_lg@2x.jpg 2x
-                    "
-                    type="image/jpg"
-                  />
-                  <source
-                    media="(min-width:758px)"
-                    srcset="
-                      ./images/gallery/OnlineCourses_md.jpg,
-                      ./images/gallery/OnlineCourses_md@2x.jpg 2x
-                    "
-                    type="image/jpg"
-                  />
-                  <source
-                    media="(max-width:757px)"
-                    srcset="
-                      ./images/gallery/OnlineCourses_sm.jpg,
-                      ./images/gallery/OnlineCourses_sm@2x.jpg 2x
-                    "
-                    type="image/jpg"
-                  />
-
-                  <img
-                    class="img"
-                    src="./images/gallery/OnlineCourses_sm.jpg"
-                    alt="Online Courses"
-                    loading="lazy"
-                  />
-                </picture>
-                <p class="text-img">
-                  14 Stylish and User-Friendly App Design Concepts · Task
-                  Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
-                  · Cloud Storage App
-                </p>
-              </div>
-              <div class="addition">
-                <h3 class="title-three-section-four">Online Courses</h3>
-                <p class="paragraph-section-four">Marketing</p>
               </div>
             </li>
           </ul>
         </div>
       </section>
     </main>
-    <footer class="footer">
-      <div class="footer-container container">
-        <div class="logo-text-footer">
-          <a class="logotype-footer" href="./index.html"
-            >Web<span class="logo-footer">Studio</span>
-          </a>
 
-          <p class="footer-text">
-            Increase the flow of customers and sales for your business with
-            digital marketing & growth solutions.
-          </p>
-        </div>
-        <div class="social-icons-text-footer">
-          <p class="text-footer-social">Social media</p>
-          <ul class="social-icons-footer">
-            <li class="icons-section-footer">
-              <a class="link-social-footer" href="">
-                <svg class="icon-footer" width="24" height="24">
-                  <use href="./images/icons.svg#icon-instagram"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="icons-section-footer">
-              <a class="link-social-footer" href="">
-                <svg class="icon-footer" width="24" height="24">
-                  <use href="./images/icons.svg#icon-twitter"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="icons-section-footer">
-              <a class="link-social-footer" href="">
-                <svg class="icon-footer" width="24" height="24">
-                  <use href="./images/icons.svg#icon-facebook"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="icons-section-footer">
-              <a class="link-social-footer" href="">
-                <svg class="icon-footer" width="24" height="24">
-                  <use href="./images/icons.svg#icon-linkedin"></use>
-                </svg>
-              </a>
-            </li>
-          </ul>
-        </div>
-        <!--Subscribe-->
-        <div class="subscribe">
-          <p class="text-footer-social">Subscribe</p>
-          <form name="Subscribe" autocomplete="off" class="form-footer">
-            <label class="button-text">
-              <input
-                type="email"
-                name="email"
-                placeholder="E-mail"
-                class="email"
-            /></label>
-
-            <button type="submit" name="button-footer" class="button-footer">
-              Subscribe
-              <svg class="icon-subscribe" width="24" height="24">
-                <use href="./images/icons.svg#icon-Frame"></use>
-              </svg>
-            </button>
-          </form>
-        </div>
+    <footer class="footer-page footer-photo">
+      <div class="container">
+        <ul class="footer-list">
+          <li class="footer-item footer-item-first">
+            <a class="footer-link" href="#about-us">про нас</a>
+          </li>
+          <li class="footer-item footer-item-second">
+            <a class="footer-link" href="#our-collection">наша колекція</a>
+          </li>
+          <li class="footer-item footer-item-third">
+            <a class="footer-link" href="#customer-order">замовлення</a>
+          </li>
+          <li class="footer-item footer-item-fourth">
+            <a class="footer-link" href="#testimonials">відгуки</a>
+          </li>
+        </ul>
+        <p class="footer-p">
+          Нотка <span class="accent-color">української</span> культури в кожній
+          вишиванці
+        </p>
       </div>
     </footer>
 
-    <!--Backdrop-->
-
-    <div class="backdrop">
-      <div class="modal">
-        <button name="button-close" type="button" class="close-batton">
-          <svg class="icon-modal" width="8" height="8">
-            <use href="./images/icons.svg#icon-close" class="icon-close"></use>
-          </svg>
-        </button>
-        <p class="lable-contact">
-          Leave your contacts and we will call you back
-        </p>
-        <form name="contacts" class="form-modal">
-          <div class="field">
-            <label for="user-name" class="name-field"> Name </label>
-            <div class="field-container">
-              <input
-                type="text"
-                id="user-name"
-                name="user-name"
-                class="field-text"
-              />
-              <svg class="icon-field" width="18" height="24">
-                <use href="./images/icons.svg#icon-person"></use>
-              </svg>
-            </div>
-          </div>
-          <div class="field">
-            <label class="name-field" for="user-phone"> Phone </label>
-            <div class="field-container">
-              <input
-                type="tel"
-                id="user-phone"
-                name="user-phone"
-                class="field-text"
-              />
-
-              <svg class="icon-field" width="18" height="24">
-                <use href="./images/icons.svg#icon-phone"></use>
-              </svg>
-            </div>
-          </div>
-          <div class="field">
-            <label class="name-field" for="user-email"> Email </label>
-            <div class="field-container">
-              <input
-                type="email"
-                id="user-email"
-                name="user-email"
-                class="field-text"
-              />
-
-              <svg class="icon-field" width="18" height="24">
-                <use href="./images/icons.svg#icon-email"></use>
-              </svg>
-            </div>
-          </div>
-
-          <div class="comment">
-            <label class="name-field" for="user-comment"> Comment </label>
-            <textarea
-              class="comment-multiline"
-              name="user-comment"
-              id="user-comment"
-              placeholder="Text input"
-            ></textarea>
-          </div>
-          <div class="checkbox-container">
-            <input
-              type="checkbox"
-              id="user-privacy"
-              value="true"
-              name="user-privacy"
-              class="user-privacy visually-hidden"
-            />
-
-            <label for="user-privacy" class="label-checkbox">
-              <span class="icon-checkbox">
-                <svg class="icon-chec" width="10" height="8">
-                  <use href="./images/icons.svg#icon-click"></use>
-                </svg>
-              </span>
-              I accept the terms and conditions of the
-
-              <a href="" class="privacy-policy">Privacy Policy</a>
-            </label>
-          </div>
-          <button class="send" type="submit">Send</button>
-        </form>
+    <section class="mobile-menu">
+      <button class="button-close" type="button">
+        <svg class="close-img" width="12" height="12">
+          <use href="./images/icons.svg#icon-close"></use>
+        </svg>
+      </button>
+      <div class="tell-box">
+        <a class="menu-tel" href="tel:+380684439426">+380 (68) 443-94-25</a>
       </div>
-    </div>
+      <div class="main-nav-box">
+        <ul class="main-nav-list">
+          <li><a href="#about-us" class="main-nav-link">про нас</a></li>
+          <li>
+            <a href="#our-collection" class="main-nav-link">наша колекція</a>
+          </li>
+          <li>
+            <a href="#customer-order" class="main-nav-link">замовлення</a>
+          </li>
+          <li>
+            <a href="#testimonials" class="main-nav-link">відгуки</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <script type="module" src="/main.js"></script>
   </body>
 </html>
